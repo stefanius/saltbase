@@ -5,6 +5,6 @@
 #    - user: root
 #    - group: vagrant
 #    - shell: /bin/sh
-salt://test.sh:
+salt://shellscripts/scripts/nginx-vhost-symlinker.sh:
   cmd:
     - script
