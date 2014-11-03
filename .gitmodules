@@ -1,3 +1,0 @@
-[submodule "roots/salt/state/shellscripts"]
-	path = roots/salt/state/shellscripts
-	url = https://github.com/stefanius/shellscripts
