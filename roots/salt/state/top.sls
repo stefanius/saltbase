@@ -9,3 +9,4 @@ vagrant:
      - php.json
      - nginx
      - afterscripts.symlink_nginx
+     - composer.install-composer
