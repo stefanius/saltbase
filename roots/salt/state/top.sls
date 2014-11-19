@@ -1,6 +1,7 @@
 vagrant:
   'servertype:vagrantbox':
      - match: grain
+     - git
      - apache2
      - mysql
      - php
