@@ -11,3 +11,5 @@ vagrant:
      - nginx
      - afterscripts.symlink_nginx
      - composer
+     - zsh
+     - dotfiles
