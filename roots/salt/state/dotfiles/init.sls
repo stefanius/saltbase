@@ -1,9 +1,9 @@
-install-dotfiles-vagrant:
+clone-dotfiles-vagrant:
   cmd.run:
-    - name: '/usr/bin/git clone https://github.com/stefanius/dotfiles.git /home/vagrant/dotfiles && /home/vagrant/dotfiles/bin/dotfiles'
+    - name: '/usr/bin/git clone https://github.com/stefanius/dotfiles.git /home/vagrant/dotfiles'
     - cwd: /home/vagrant/
 
-install-dotfiles-root:
+install-dotfiles-vagrant:
   cmd.run:
-    - name: '/usr/bin/git clone https://github.com/stefanius/dotfiles.git /root/dotfiles && /root/dotfiles/bin/dotfiles'
-    - cwd: /root/
+    - name: '/bin/bash /home/vagrant/dotfiles/bin/dotfiles'
+    - cwd: /home/vagrant/
