@@ -1,6 +1,7 @@
 vagrant:
   'servertype:vagrantbox':
      - match: grain
+     - htop
      - git
      - apache2
      - mysql
@@ -10,8 +11,8 @@ vagrant:
      - php.json
      - php.mysql
      - nginx
-     - elasticsearch
      - afterscripts.symlink_nginx
      - composer
      - zsh
      - dotfiles
+     - elasticsearch
