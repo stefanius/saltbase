@@ -10,7 +10,6 @@ vagrant:
      - php.json
      - php.mysql
      - nginx
-     - sun-java
      - elasticsearch
      - afterscripts.symlink_nginx
      - composer
