@@ -5,13 +5,14 @@ vagrant:
      - git
      - apache2
      - mysql
-     - php
-     - php.fpm
-     - php.curl
-     - php.json
-     - php.mysql
+     - php5
+     #- php
+     #- php.fpm
+     #- php.curl
+     #- php.json
+     #- php.mysql
      - nginx
-     - afterscripts.symlink_nginx
+     #- afterscripts.symlink_nginx
      - composer
      - zsh
      - dotfiles
